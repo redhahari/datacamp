@@ -1,11 +1,27 @@
 Matplotlib Notes 2 September 2017
 
-import matplotlib.pyplot as plt
+          import matplotlib.pyplot as plt
 
-year = [1950, 1970, 1990, 2010]
+          year = [1950, 1970, 1990, 2010]
 
-pop = [2.519, 3.692, 5.263, 6.972]
+          pop = [2.519, 3.692, 5.263, 6.972]
 
-plt.plot(year,pop)
-          x    y 
-        
+          plt.plot(year,pop)
+                    x    y 
+
+          plt.show()
+
+Create A Scatter plot
+
+          import matplotlib.pyplot as plt
+
+          year = [1950, 1970, 1990, 2010]
+
+          pop = [2.519, 3.692, 5.263, 6.972]
+
+          plt.scatter(year,pop)
+                    x    y 
+
+          plt.show()
+          
+ 
