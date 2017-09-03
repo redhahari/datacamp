@@ -25,3 +25,14 @@ Create A Scatter plot
           plt.show()
           
  
+Histogram 
+          - Explore Dataset
+          - Get Idea about Distribution
+
+How To Histogram ? 
+
+          import matplotlib.pyplot as plt
+          help(plt.hist)
+          ex : hist(x,bins=10)
+          
+          
